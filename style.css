@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2? family= Roboto:wght@400;700 & display=swap");
+
+body {
+  background: linear-gradient(236.85deg, #22577a 27.26%, #38a3a5 96.03%);
+  font-family: "Roboto", sans-serif;
+}
+.conteiner {
+  background: #c7f9cc;
+  border-radius: 25px;
+  display: block;
+  max-width: 740px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  box-shadow: 15px 15px 15px #0e1d2f;
+  color: #1c1c1c;
+  padding: 25px 60px;
+}
+.foto {
+  border-radius: 368px;
+  max-height: 160px;
+  top: -320px;
+  left: 41%;
+  box-shadow: 1px 3px 16px #0e1d2f;
+  position: relative;
+}
+
+.tema button {
+  position: absolute;
+  top: 10px;
+  left: 16px;
+  font-weight: 400;
+  font-size: 20px;
+  padding: 8px 16px;
+  color: #1c1c1c;
+  background: #80ed99;
+  border-radius: 50px;
+  border: 1px;
+}
+.backimg {
+  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIFIc3Mn9cv0KrC_yjEmRgVmu7oAwuC06zRw&usqp=CAU);
+  border-radius: 15px;
+  display: block;
+  max-width: 620px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  box-shadow: 1px 1px 10px #0e1d2f;
+  padding: 50px 60px;
+}
+.deuMerda {
+  text-align: center;
+}
+.apresentacao {
+  margin-bottom: 10px;
+}
+.apresentacao h1 {
+  font-weight: 700;
+  font-weight: bold;
+  font-size: 39px;
+
+  text-align: center;
+}
+.apresentacao h3 {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+/*       parte dos projetos    */
+.projetos {
+  margin-top: -140px;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(236.85deg, #57cc99 27.26%, #80ed99 96.03%);
+  padding: 20px 24px;
+  border-radius: 15px;
+}
+.projetos-titulos {
+  list-style: none;
+  font-weight: 700;
+  font-size: 34px;
+  text-align: center;
+}
+.projeto-iten {
+  list-style-type: none;
+  line-height: 60px;
+}
+.projeto-iten a {
+  color: #1c1c1c;
+  text-decoration: none;
+}
+.logoGJ {
+  background: #38a3a5;
+  border-radius: 16px;
+  height: 40px;
+  width: 50px;
+  position: absolute;
+  top: 10px;
+  right: 16px;
+  font-family: OCR A Std, monospace;
+  font-size: 35px;
+  color: #c7f9cc;
+  text-align: center;
+  box-shadow: 5px 4px 6px #0e1d2f;
+}
+
+/*    dark mode    */
+.dark {
+  background: linear-gradient(236.85deg, #112c3e 27.26%, #287375 96.03%);
+}
+.dark .conteiner {
+  background: #121613;
+  color: #c7f9cc;
+  box-shadow: 11px 11px 16px #c7f9cc;
+  /*   050505 */
+}
+.dark .projetos {
+  color: #1c1c1c;
+}
+.dark .tema button {
+  background: #202720;
+  color: #c7f9cc;
+  border: 1px;
+}
